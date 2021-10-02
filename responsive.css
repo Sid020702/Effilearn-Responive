@@ -1,0 +1,85 @@
+@media only screen and (max-width:1140px)
+{
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 450px;
+        transition: all 1s ease-out;
+       
+    }
+    .rightNav{
+        width: 35%;
+        text-align: center;
+        margin: auto;
+    }
+    #search{
+        width: 100%;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .h-nav{
+        height: 50px;
+    }
+
+    .visibility{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 85%;
+    }
+    .section{
+        flex-direction: column-reverse;
+        height: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+    .imgFluid{
+        width: 160px;
+    }
+
+    .text-big{
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .text-small{
+        font-size: 16px;
+        margin-bottom: 10px;
+        
+    }
+
+    .paras{
+        width: 120%;
+        padding: 45px;
+    }
+
+    .form{
+        width: 75%;
+    }
+    .text-footer{
+        font-size: 12px;
+    }
+    .secondHalf,
+    .firstHalf{
+        width: 100%;
+    }
+    .secondHalf{
+        margin-bottom: 40px;
+    }
+    .btn{
+        font-size: 16px;
+    }
+
+    .background{
+        width: 100%;
+    }
+
+    .contact{
+        height: 85vh;
+    }
+}
